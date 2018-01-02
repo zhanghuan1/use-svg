@@ -7,11 +7,11 @@ export const DataStatistic = props => {
   );
 }
 /*使用:
-    物理机:<DataCircle x1="90%" x2="100%" count={["1"]} strokeWidth="36" strokeDasharray={["110 1069"]} transform={["rotate(-90,100 100)"]} strokeLinecap="none" />
-    虚拟机:<DataCircle x1="0%" x2="100%" count={["2"]} strokeWidth="42" strokeDasharray={["220 1069"]} transform={["rotate(-90,100 100)"]} strokeLinecap="none"/>
-    网络设备:<DataCircle x1="30%" x2="100%" y1="70%" y2="100%" count={["31","32"]} strokeWidth="42" strokeDasharray={["110 1069","110 1069"]} transform={["rotate(0,100 100)","rotate(180,100 100)"]} strokeLinecap="none"/>
-    服务器:<DataCircle x1="0%" x2="100%" count={["4"]} strokeWidth="30" strokeDasharray={["110 1069"]} transform={["rotate(0,100 100)"]} strokeLinecap="round"/>
-    云盘:<DataCircle x1="50%" x2="100%" count={["5"]} strokeWidth="30" strokeDasharray={["110 1069"]} transform={["rotate(90,100 100)"]} strokeLinecap="none"/>
+    <DataCircle x1="90%" x2="100%" count={["1"]} strokeWidth="36" strokeDasharray={["110 1069"]} transform={["rotate(-90,100 100)"]} strokeLinecap="none" />
+    <DataCircle x1="0%" x2="100%" count={["2"]} strokeWidth="42" strokeDasharray={["220 1069"]} transform={["rotate(-90,100 100)"]} strokeLinecap="none"/>
+    <DataCircle x1="30%" x2="100%" y1="70%" y2="100%" count={["31","32"]} strokeWidth="42" strokeDasharray={["110 1069","110 1069"]} transform={["rotate(0,100 100)","rotate(180,100 100)"]} strokeLinecap="none"/>
+    <DataCircle x1="0%" x2="100%" count={["4"]} strokeWidth="30" strokeDasharray={["110 1069"]} transform={["rotate(0,100 100)"]} strokeLinecap="round"/>
+    <DataCircle x1="50%" x2="100%" count={["5"]} strokeWidth="30" strokeDasharray={["110 1069"]} transform={["rotate(90,100 100)"]} strokeLinecap="none"/>
   */
 export const DataCircle = props => {
   var {x1,x2,strokeWidth,strokeDasharray,transform,strokeLinecap,count} = props;
